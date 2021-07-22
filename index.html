@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500;1,600&family=Pattaya&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png"
+                        width="125px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png"
+                    width="40px" height="40px">
+                <img src="https://image.flaticon.com/icons/png/512/633/633647.png" class="menu-icon"
+                    onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>Success isn't always about greatness. Its about consistency. Consistent<br>hard work gains
+                        success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now</a>
+                </div>
+                <div class="col-2">
+                    <img
+                        src="images/background1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img
+                        src="https://images.bewakoof.com/t540/friends-logo-half-sleeve-t-shirt-frl-men-s-printed-t-shirts-234662-1584436291.jpg">
+                </div>
+                <div class="col-3">
+                    <img
+                        src="https://images.bewakoof.com/t540/iron-man-of-war-half-sleeve-t-shirt-avl-men-s-printed-t-shirts-220650-1603964159.jpg">
+                </div>
+                <div class="col-3">
+                    <img
+                        src="https://images.bewakoof.com/t540/busy-doin-nothing-half-sleeve-t-shirt-men-s-printed-t-shirts-287587-1601909238.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/the-bear-house-black-core-tapered-slim-fit-jeans-mid-rise-tbh-andy-bk-the-bear-house-denim-in-tapered-slim-fit-01-356280-1620701969.jpg">
+                    <h4>Slim Men Blue Torn Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/men-s-relaxed-fit-mustard-solid-short-kurta-men-s-solid-tape-kurta-302582-1612442890.jpg">
+                    <h4>Men's Relaxed Fit Mustard Solid Short Kurta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/style-quotient-men-blue-printed-denim-straight-kurta-style-quotient-mens-printed-straight-kurta-316680-1609423578.jpg">
+                    <h4>Men Blue Printed Denim Straight Kurta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/grey-camo-crewmeck-camo-sweatshirt-men-s-plain-crewneck-camo-sweatshirts-277521-1611042614.jpg">
+                    <h4>Slim Men Black Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/the-bear-house-black-core-tapered-slim-fit-jeans-mid-rise-tbh-andy-bk-the-bear-house-denim-in-tapered-slim-fit-01-356280-1620701969.jpg">
+                    <h4>Slim Men Blue Torn Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/men-s-relaxed-fit-mustard-solid-short-kurta-men-s-solid-tape-kurta-302582-1612442890.jpg">
+                    <h4>Men's Relaxed Fit Mustard Solid Short Kurta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/style-quotient-men-blue-printed-denim-straight-kurta-style-quotient-mens-printed-straight-kurta-316680-1609423578.jpg">
+                    <h4>Men Blue Printed Denim Straight Kurta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/grey-camo-crewmeck-camo-sweatshirt-men-s-plain-crewneck-camo-sweatshirts-277521-1611042614.jpg">
+                    <h4>Slim Men Black Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/the-bear-house-black-core-tapered-slim-fit-jeans-mid-rise-tbh-andy-bk-the-bear-house-denim-in-tapered-slim-fit-01-356280-1620701969.jpg">
+                    <h4>Slim Men Blue Torn Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/men-s-relaxed-fit-mustard-solid-short-kurta-men-s-solid-tape-kurta-302582-1612442890.jpg">
+                    <h4>Men's Relaxed Fit Mustard Solid Short Kurta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/style-quotient-men-blue-printed-denim-straight-kurta-style-quotient-mens-printed-straight-kurta-316680-1609423578.jpg">
+                    <h4>Men Blue Printed Denim Straight Kurta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+                <div class="col-4">
+                    <img
+                        src="https://images.bewakoof.com/t540/grey-camo-crewmeck-camo-sweatshirt-men-s-plain-crewneck-camo-sweatshirts-277521-1611042614.jpg">
+                    <h4>Slim Men Black Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹1139 </p>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- offer -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/MiBand.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on Shopp.my</p>
+                        <h1>Smart Band 4</h1>
+                        <small>The Mi smart band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full touch
+                            display
+                            with adjustable brightness,so everything is clear as can be.<br>
+                        </small>
+                        <a href="" class="btn">Buy Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i id="colon" class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates rem ducimus
+                            asperiores atque ea quis quidem, consequuntur eaque illum obcaecati, consectetur vitae.
+
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            class="review-img">
+                        <h3>Christiana Rivers</h3>
+                    </div>
+                    <div class="col-3">
+                        <i id="colon" class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates rem ducimus
+                            asperiores atque ea quis quidem, consequuntur eaque illum obcaecati, consectetur vitae.
+
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            class="review-img">
+                        <h3>Christiana Rivers</h3>
+                    </div>
+                    <div class="col-3">
+                        <i id="colon" class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates rem ducimus
+                            asperiores atque ea quis quidem, consequuntur eaque illum obcaecati, consectetur vitae.
+
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            class="review-img">
+                        <h3>Christiana Rivers</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App For Android And Ios Mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/playstore.png">
+                            <img
+                                src="images/appstore.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img
+                            src="images/logo.png">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum perspiciatis neque
+                            aliquid totam labore doloremque natus mollitia quis eum.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twittor</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright 2021</p>
+            </div>
+        </div>
+        <!-- js for toggle -->
+        <script>
+            var menuItems = document.getElementById("menuItems");
+            menuItems.style.maxHeight = "0px";
+            function menutoggle() {
+                if (menuItems.style.maxHeight == "0px") {
+                    menuItems.style.maxHeight = "200px";
+                }
+                else {
+                    menuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/10390b9715.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
